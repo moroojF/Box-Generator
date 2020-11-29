@@ -25,6 +25,7 @@ function App() {
           <div className="col-2"></div>
           <div className="col-6">
             {
+              // JSON.stringify(boxs)
               boxs.map((box, i) =>
                 <DrowBox key={i} box={box} />)
             }
